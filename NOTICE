@@ -1,0 +1,6 @@
+The PE Core vision implementation is adapted from Perception Encoder by
+Meta Platforms, Inc. and affiliates, distributed under the Apache License 2.0.
+https://github.com/facebookresearch/perception_models
+
+The implementation has been reduced to the fixed-resolution visual feature
+path used by CuRe, with Q/V LoRA and a subspace classification head.
