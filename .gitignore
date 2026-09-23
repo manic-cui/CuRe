@@ -13,4 +13,5 @@
 !/cure/preprocess.py
 !/weights/
 /weights/*
-!/weights/cure.pt.sha256
+!/weights/cure_adapter.pt
+!/weights/cure_adapter.pt.sha256

@@ -3,3 +3,4 @@ numpy>=1.26,<3
 Pillow>=10,<13
 opencv-python-headless>=4.9,<6
 albumentations==2.0.8
+huggingface_hub>=0.23

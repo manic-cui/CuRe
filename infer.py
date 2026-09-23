@@ -19,8 +19,12 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", required=True, type=Path, help="Image file or directory")
     parser.add_argument("--output", type=Path, help="JSONL destination; defaults to stdout")
-    parser.add_argument("--checkpoint", type=Path, help="Model weights; defaults to weights/cure.pt")
-    parser.add_argument("--device", default="auto", help="auto, cpu, cuda, or cuda:0")
+    parser.add_argument("--checkpoint", type=Path, help="CuRe adapter weights; defaults to weights/cure_adapter.pt")
+    parser.add_argument("--base-checkpoint", type=Path,
+                        help="Local PE-Core-L14-336.pt; defaults to downloading it from Hugging Face")
+    parser.add_argument("--device", default="cuda",
+                        help="cuda (default, fp16 autocast as in the paper), cuda:N, or cpu (fp32; "
+                             "scores may differ from the paper in the third decimal)")
     parser.add_argument("--batch-size", type=int, default=1)
     parser.add_argument("--recursive", action="store_true", help="Include images in subdirectories")
     args = parser.parse_args()
@@ -42,7 +46,7 @@ def main():
 
     torch.set_num_threads(4)
     try:
-        model = load_model(args.checkpoint, args.device)
+        model = load_model(args.checkpoint, args.device, args.base_checkpoint)
         device = next(model.parameters()).device
         if args.output:
             args.output.parent.mkdir(parents=True, exist_ok=True)
