@@ -12,6 +12,8 @@
 
 [![Project Page](https://img.shields.io/badge/Project-Page-2f4fd6.svg)](https://manic-cui.github.io/projects/cure/)
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.14316)
+[![HF Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Paper-Hugging%20Face-ffd21e.svg)](https://huggingface.co/papers/2609.14316)
+[![HF Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-Weights-ffd21e.svg)](https://huggingface.co/mannicui0/CuRe)
 [![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-yellow.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.5%2B-EE4C2C.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
@@ -19,7 +21,7 @@
 
 [English](README.md) · [简体中文](README_zh-CN.md)
 
-[🌐 项目主页](https://manic-cui.github.io/projects/cure/) · [📄 论文](https://arxiv.org/abs/2609.14316) · [🧭 方法](#-方法) · [📊 实验结果](#-实验结果) · [🚀 快速开始](#-快速开始) · [📚 引用](#-引用)
+[🌐 项目主页](https://manic-cui.github.io/projects/cure/) · [📄 论文](https://arxiv.org/abs/2609.14316) · [🤗 Hugging Face](https://huggingface.co/mannicui0/CuRe) · [🧭 方法](#-方法) · [📊 实验结果](#-实验结果) · [🚀 快速开始](#-快速开始) · [📚 引用](#-引用)
 
 <img src="assets/teaser.jpg" width="95%" alt="二值监督与从真实（alpha = 0）到生成（alpha = 1）的连续来源变化对比。">
 
@@ -37,6 +39,7 @@
 
 ## 📰 动态
 
+- **2026.10** &nbsp;代码和权重同步发布到 [🤗 Hugging Face](https://huggingface.co/mannicui0/CuRe)，并建立了[论文页面](https://huggingface.co/papers/2609.14316)。
 - **2026.09** &nbsp;论文公开于 [arXiv](https://arxiv.org/abs/2609.14316)。
 - **2026.09** &nbsp;发布推理代码和训练好的 CuRe adapter（25 MB）。
 
@@ -123,6 +126,8 @@ cd CuRe
 pip install -r requirements.txt
 shasum -a 256 -c weights/cure_adapter.pt.sha256
 ```
+
+同样的文件也同步在 Hugging Face 上，可以用 `hf download mannicui0/CuRe --local-dir CuRe` 代替 `git clone` 获取。
 
 `weights/cure_adapter.pt`（约 25 MB）随仓库提供，包含 CuRe 的全部训练参数：第一阶段的 LoRA 更新、第二阶段的来源响应子空间（`mu`、`W`）以及线性分类头。
 

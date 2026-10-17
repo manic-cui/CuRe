@@ -12,6 +12,8 @@
 
 [![Project Page](https://img.shields.io/badge/Project-Page-2f4fd6.svg)](https://manic-cui.github.io/projects/cure/)
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.14316)
+[![HF Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Paper-Hugging%20Face-ffd21e.svg)](https://huggingface.co/papers/2609.14316)
+[![HF Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-Weights-ffd21e.svg)](https://huggingface.co/mannicui0/CuRe)
 [![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-yellow.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.5%2B-EE4C2C.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
@@ -19,7 +21,7 @@
 
 [English](README.md) · [简体中文](README_zh-CN.md)
 
-[🌐 Project Page](https://manic-cui.github.io/projects/cure/) · [📄 Paper](https://arxiv.org/abs/2609.14316) · [🧭 Method](#-how-it-works) · [📊 Results](#-results) · [🚀 Quick Start](#-quick-start) · [📚 Citation](#-citation)
+[🌐 Project Page](https://manic-cui.github.io/projects/cure/) · [📄 Paper](https://arxiv.org/abs/2609.14316) · [🤗 Hugging Face](https://huggingface.co/mannicui0/CuRe) · [🧭 Method](#-how-it-works) · [📊 Results](#-results) · [🚀 Quick Start](#-quick-start) · [📚 Citation](#-citation)
 
 <img src="assets/teaser.jpg" width="95%" alt="Binary supervision versus continuous source change from real (alpha = 0) to generated (alpha = 1).">
 
@@ -37,6 +39,7 @@ Existing AI-generated image detectors often perform well on in-domain data, but 
 
 ## 📰 News
 
+- **2026.10** &nbsp;Code and weights are also on [🤗 Hugging Face](https://huggingface.co/mannicui0/CuRe), with a [paper page](https://huggingface.co/papers/2609.14316).
 - **2026.09** &nbsp;Paper released on [arXiv](https://arxiv.org/abs/2609.14316).
 - **2026.09** &nbsp;Inference code and the trained CuRe adapter (25 MB) released.
 
@@ -123,6 +126,9 @@ cd CuRe
 pip install -r requirements.txt
 shasum -a 256 -c weights/cure_adapter.pt.sha256
 ```
+
+The same files are mirrored on Hugging Face, so you can also fetch them with
+`hf download mannicui0/CuRe --local-dir CuRe` instead of `git clone`.
 
 `weights/cure_adapter.pt` (about 25 MB) ships with this repository and holds
 every trained parameter of CuRe: the Stage-1 LoRA updates, the Stage-2
