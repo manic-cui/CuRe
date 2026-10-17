@@ -4,12 +4,13 @@
 
 ### Learning Continuous Source Responses for Generalizable AI-Generated Image Detection
 
-Manni Cui<sup>1,2</sup> · Ruiqi Liu<sup>3</sup> · Zijian Yu<sup>1</sup> · Hao Tan<sup>3</sup> · Zibo Wei<sup>2</sup> · Zian Wang<sup>4</sup> · Ziheng Qin<sup>3</sup> · Huijia Zhu<sup>1</sup> · Weiqiang Wang<sup>1</sup> · Jun Lan<sup>1,†</sup> · Shu Wu<sup>3,†</sup>
+[Manni Cui](https://manic-cui.github.io/)<sup>1,2</sup> · Ruiqi Liu<sup>3</sup> · Zijian Yu<sup>1</sup> · Hao Tan<sup>3</sup> · Zibo Wei<sup>2</sup> · Zian Wang<sup>4</sup> · Ziheng Qin<sup>3</sup> · Huijia Zhu<sup>1</sup> · Weiqiang Wang<sup>1</sup> · Jun Lan<sup>1,†</sup> · Shu Wu<sup>3,†</sup>
 
 <sup>1</sup>Ant Group &nbsp; <sup>2</sup>Huazhong University of Science and Technology &nbsp; <sup>3</sup>Institute of Automation, Chinese Academy of Sciences &nbsp; <sup>4</sup>Jilin University
 
 <sub>† Corresponding authors</sub>
 
+[![Project Page](https://img.shields.io/badge/Project-Page-2f4fd6.svg)](https://manic-cui.github.io/projects/cure/)
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.14316)
 [![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-yellow.svg?logo=python&logoColor=white)](https://www.python.org/)
@@ -18,7 +19,7 @@ Manni Cui<sup>1,2</sup> · Ruiqi Liu<sup>3</sup> · Zijian Yu<sup>1</sup> · Hao
 
 [English](README.md) · [简体中文](README_zh-CN.md)
 
-[📄 Paper](https://arxiv.org/abs/2609.14316) · [🧭 Method](#-how-it-works) · [📊 Results](#-results) · [🚀 Quick Start](#-quick-start) · [📚 Citation](#-citation)
+[🌐 Project Page](https://manic-cui.github.io/projects/cure/) · [📄 Paper](https://arxiv.org/abs/2609.14316) · [🧭 Method](#-how-it-works) · [📊 Results](#-results) · [🚀 Quick Start](#-quick-start) · [📚 Citation](#-citation)
 
 <img src="assets/teaser.jpg" width="95%" alt="Binary supervision versus continuous source change from real (alpha = 0) to generated (alpha = 1).">
 
@@ -203,6 +204,7 @@ If you find CuRe useful, please cite:
 
 - **Issues** &nbsp;[github.com/manic-cui/CuRe/issues](https://github.com/manic-cui/CuRe/issues)
 - **Email** &nbsp;`mannicui@berkeley.edu`
+- **Homepage** &nbsp;[manic-cui.github.io](https://manic-cui.github.io/)
 
 ---
 

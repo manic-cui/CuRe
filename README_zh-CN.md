@@ -4,12 +4,13 @@
 
 ### 学习连续来源响应，实现可泛化的 AI 生成图像检测
 
-Manni Cui<sup>1,2</sup> · Ruiqi Liu<sup>3</sup> · Zijian Yu<sup>1</sup> · Hao Tan<sup>3</sup> · Zibo Wei<sup>2</sup> · Zian Wang<sup>4</sup> · Ziheng Qin<sup>3</sup> · Huijia Zhu<sup>1</sup> · Weiqiang Wang<sup>1</sup> · Jun Lan<sup>1,†</sup> · Shu Wu<sup>3,†</sup>
+[Manni Cui](https://manic-cui.github.io/)<sup>1,2</sup> · Ruiqi Liu<sup>3</sup> · Zijian Yu<sup>1</sup> · Hao Tan<sup>3</sup> · Zibo Wei<sup>2</sup> · Zian Wang<sup>4</sup> · Ziheng Qin<sup>3</sup> · Huijia Zhu<sup>1</sup> · Weiqiang Wang<sup>1</sup> · Jun Lan<sup>1,†</sup> · Shu Wu<sup>3,†</sup>
 
 <sup>1</sup>蚂蚁集团 &nbsp; <sup>2</sup>华中科技大学 &nbsp; <sup>3</sup>中国科学院自动化研究所 &nbsp; <sup>4</sup>吉林大学
 
 <sub>† 通讯作者</sub>
 
+[![Project Page](https://img.shields.io/badge/Project-Page-2f4fd6.svg)](https://manic-cui.github.io/projects/cure/)
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.14316)
 [![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-yellow.svg?logo=python&logoColor=white)](https://www.python.org/)
@@ -18,7 +19,7 @@ Manni Cui<sup>1,2</sup> · Ruiqi Liu<sup>3</sup> · Zijian Yu<sup>1</sup> · Hao
 
 [English](README.md) · [简体中文](README_zh-CN.md)
 
-[📄 论文](https://arxiv.org/abs/2609.14316) · [🧭 方法](#-方法) · [📊 实验结果](#-实验结果) · [🚀 快速开始](#-快速开始) · [📚 引用](#-引用)
+[🌐 项目主页](https://manic-cui.github.io/projects/cure/) · [📄 论文](https://arxiv.org/abs/2609.14316) · [🧭 方法](#-方法) · [📊 实验结果](#-实验结果) · [🚀 快速开始](#-快速开始) · [📚 引用](#-引用)
 
 <img src="assets/teaser.jpg" width="95%" alt="二值监督与从真实（alpha = 0）到生成（alpha = 1）的连续来源变化对比。">
 
@@ -188,6 +189,7 @@ python infer.py --input image.jpg --base-checkpoint /path/to/PE-Core-L14-336.pt
 
 - **Issues** &nbsp;[github.com/manic-cui/CuRe/issues](https://github.com/manic-cui/CuRe/issues)
 - **邮箱** &nbsp;`mannicui@berkeley.edu`
+- **个人主页** &nbsp;[manic-cui.github.io](https://manic-cui.github.io/)
 
 ---
 
