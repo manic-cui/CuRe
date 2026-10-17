@@ -17,7 +17,7 @@
 [![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-yellow.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.5%2B-EE4C2C.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
-[![Stars](https://img.shields.io/github/stars/manic-cui/CuRe?style=social)](https://github.com/manic-cui/CuRe)
+[![Stars](https://img.shields.io/github/stars/manic-cui/CuRe?style=flat&logo=github&label=Stars)](https://github.com/manic-cui/CuRe)
 
 [English](README.md) · [简体中文](README_zh-CN.md)
 
