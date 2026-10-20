@@ -40,6 +40,7 @@ Existing AI-generated image detectors often perform well on in-domain data, but 
 ## 📰 News
 
 - **2026.10** &nbsp;CuRe has been integrated into [SynthScope](https://github.com/SMSD75/SynthScope), an open-source AI-generated image and video detection toolkit from VISLab, University of Amsterdam. Using our released adapter, the team reports reproducing 7 of the 10 benchmarks in our paper ([Online Demo](https://huggingface.co/spaces/SMSD75/SynthScope) · [Reproduction Details](https://github.com/SMSD75/SynthScope/blob/main/models/image/cure/README.md)).
+- **2026.10** &nbsp;In SynthScope's evaluation of 14 image detectors on six recent and in-the-wild benchmarks, CuRe has the highest balanced accuracy on all six, averaging **90.0%** against 72.8% for the next-best detector, while 9 of the 14 detectors average below 60% ([In-the-Wild Results](https://github.com/SMSD75/SynthScope/blob/main/docs/WILD_BENCHMARKS.md) · [LinkedIn Post](https://www.linkedin.com/posts/mohammadreza-salehi-39717b108_aigeneratedcontent-deepfakedetection-opensource-share-7517989594106310656-CLQR/)).
 - **2026.10** &nbsp;Code and weights are also on [🤗 Hugging Face](https://huggingface.co/mannicui0/CuRe), with a [paper page](https://huggingface.co/papers/2609.14316).
 - **2026.09** &nbsp;Paper released on [arXiv](https://arxiv.org/abs/2609.14316).
 - **2026.09** &nbsp;Inference code and the trained CuRe adapter (25 MB) released.
