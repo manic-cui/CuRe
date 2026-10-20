@@ -39,6 +39,7 @@
 
 ## 📰 动态
 
+- **2026.10** &nbsp;CuRe 已被集成到阿姆斯特丹大学 VISLab 开源的 AI 生成图像与视频检测工具包 [SynthScope](https://github.com/SMSD75/SynthScope) 中。该团队使用我们发布的 adapter，报告复现了论文中 10 个基准里的 7 个（[在线演示](https://huggingface.co/spaces/SMSD75/SynthScope) · [复现细节](https://github.com/SMSD75/SynthScope/blob/main/models/image/cure/README.md)）。
 - **2026.10** &nbsp;代码和权重同步发布到 [🤗 Hugging Face](https://huggingface.co/mannicui0/CuRe)，并建立了[论文页面](https://huggingface.co/papers/2609.14316)。
 - **2026.09** &nbsp;论文公开于 [arXiv](https://arxiv.org/abs/2609.14316)。
 - **2026.09** &nbsp;发布推理代码和训练好的 CuRe adapter（25 MB）。
