@@ -39,7 +39,7 @@
 
 ## 📰 动态
 
-- **2026.10** &nbsp;CuRe 已被集成到阿姆斯特丹大学 VISLab 开源的 AI 生成图像与视频检测工具包 [SynthScope](https://github.com/SMSD75/SynthScope) 中。在 SynthScope 对 14 个图像检测器的评测中，**CuRe 在 6 个近期及真实场景（in-the-wild）基准上均排名第一**，平均平衡准确率 **90.0%**，次优检测器为 72.8%；14 个检测器中有 9 个平均低于 60%（[在线演示](https://huggingface.co/spaces/SMSD75/SynthScope) · [真实场景评测结果](https://github.com/SMSD75/SynthScope/blob/main/docs/WILD_BENCHMARKS.md) · [LinkedIn 帖子](https://www.linkedin.com/posts/mohammadreza-salehi-39717b108_aigeneratedcontent-deepfakedetection-opensource-share-7517989594106310656-CLQR/)）。
+- **2026.10** &nbsp;CuRe 已被集成到阿姆斯特丹大学 VISLab 开源的 AI 生成图像与视频检测工具包 [SynthScope](https://github.com/SMSD75/SynthScope) 中。在 SynthScope 对 14 个图像检测器的评测中，**CuRe 在 6 个近期及真实场景（in-the-wild）基准上均排名第一**，平均平衡准确率 **90.0%**，次优检测器为 72.8%（[在线演示](https://huggingface.co/spaces/SMSD75/SynthScope) · [真实场景评测结果](https://github.com/SMSD75/SynthScope/blob/main/docs/WILD_BENCHMARKS.md) · [LinkedIn 帖子](https://www.linkedin.com/posts/mohammadreza-salehi-39717b108_aigeneratedcontent-deepfakedetection-opensource-share-7517989594106310656-CLQR/)）。
 - **2026.10** &nbsp;代码和权重同步发布到 [🤗 Hugging Face](https://huggingface.co/mannicui0/CuRe)，并建立了[论文页面](https://huggingface.co/papers/2609.14316)。
 - **2026.09** &nbsp;论文公开于 [arXiv](https://arxiv.org/abs/2609.14316)。
 - **2026.09** &nbsp;发布推理代码和训练好的 CuRe adapter（25 MB）。
